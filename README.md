@@ -1,2 +1,5 @@
 # Guess-my-number-game
+
 "Guess My Number" is a fun JavaScript game where players try to guess a randomly generated number within a set range. With each guess, they receive hints like "Too high!" or "Too low!" until they find the correct number.
+
+This project is a part of my JavaScript learning journey, helping me practice DOM manipulation and logic building.
