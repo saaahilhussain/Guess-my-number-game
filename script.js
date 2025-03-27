@@ -50,3 +50,6 @@ document.querySelector('.guess').addEventListener('keydown', function (event) {
   if (event.key === 'Enter') document.querySelector('.check').click();
 });
 document.querySelector('.guess').focus();
+document.addEventListener('keydown', function (event) {
+  if (event.key === 'Escape') document.querySelector('.again').click();
+});
