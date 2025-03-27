@@ -45,3 +45,8 @@ document.querySelector('.again').addEventListener('click', function () {
   document.querySelector('.number').style.width = '15rem';
   document.querySelector('.score').textContent = 20;
 });
+
+document.querySelector('.guess').addEventListener('keydown', function (event) {
+  if (event.key === 'Enter') document.querySelector('.check').click();
+});
+document.querySelector('.guess').focus();
